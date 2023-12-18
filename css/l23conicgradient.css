@@ -1,0 +1,22 @@
+.circle1,
+.circle2,
+.circle3,
+.circle4,
+.circle5 {
+    width: 200px;
+    height: 200px;
+
+    border-radius: 50%;
+}
+
+.circle1 {
+    background: conic-gradient(yellow, red, green, pink)
+}
+
+.circle2 {
+    background: conic-gradient(
+            yellow 20%,
+            red 0% 40%,
+            green 0% 60%,
+            pink 0% 100%)
+}

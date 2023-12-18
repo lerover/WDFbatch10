@@ -1,0 +1,129 @@
+<html>
+
+<head>
+    <title>Form Element</title>
+    
+</head>
+
+<body>
+    <h3>Form Element</h3>
+
+    <form>
+
+        <label for="firstname">First Name*</label>
+        <input type="text" name="firstname" id="firstname" class="" placeholder="Enter your first name" readonly/>
+
+        <br /><br />
+
+        <label for="lastname">Last Name*</label>
+        <input type="text" name="latname" id="lastname" class="" placeholder="Enter your last name" disabled/>
+
+        <br /><br />
+
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" class="" placeholder="Input your age" />
+
+        <br/><br/>
+
+        <label>Password</label>
+        <input type="password" name="password" id="password" class="" placeholder="Input your password" />
+
+        <br/><br/>
+
+        <label>Gender</label>
+        <input type="radio" name="gender" id='genderm' class="" value="1"/><label for="genderm">Male</label>
+        <input type="radio" name="gender" id="genderf" class="" value="0"/><label for="genderf">Female</label>
+        <input type="radio" name="gender" id="gendero" class="" value="2"/><label for="gendero">Other</label>
+
+        <br/><br/>
+
+        <label>Fruit</label>
+        <input type="radio" name="fruit" id='furitap' class="" value="4"/><label for="furitap">Apple</label>
+        <input type="radio" name="fruit" id="fruitog" class="" value="5"/><label for="fruitog">Orange</label>
+        <input type="radio" name="fruit" id="fruitpp" class="" value="6"/><label for="fruitpp">Pineapple</label>
+
+        <br/><br/>
+
+        <label>Choose your favorite color</label>
+        <input type="checkbox" name="favcolor" id="favrd" class="" value="1"><label for="favrd">Red</label>
+        <input type="checkbox" name="favcolor" id="favgn" class="" value="2"><label for="favgn">Green</label>
+        <input type="checkbox" name="favcolor" id="favbl" class="" value="3"><label for="favbl">Blue</label>
+        <input type="checkbox" name="favcolor" id="favwt" class="" value="4"><label for="favwt">White</label>
+
+        <br/><br/>
+
+        <label for="country">Citizen</label>
+
+        <select name="country" id="country" class="" >
+            <option hidden>Choose Your country</option>
+            <option value="0">Myanmar</option>
+            <option value="1">Thailand</option>
+            <option value="2">China</option>
+            <option value="3">India</option>
+            <option value="4">Russia</option>
+        </select>
+
+        <br/><br/>
+
+        <label for="role">Role</label>
+
+        <select name="role" id="role" class="" multiple>
+            
+            <option value="0">Manager</option>
+            <option value="1">Security</option>
+            <option value="2">Secretary</option>
+            <option value="0">Manager</option>
+            <option value="1">Security</option>
+            <option value="2">Secretary</option>
+        </select>
+
+        <br/><br/>
+
+        <label for="date">DOB</label>
+        <input type="date" name="date" id="date" class="" />
+
+        <br/><br/>
+
+        <label for="time">Time</label>
+        <input type="time" name="time" id="time" class="" />
+
+        <br/><br/>
+
+        <label for="apt">Appointment</label>
+        <input type="datetime-local" name="apt" id="apt" class="" />
+
+        <br/><br/>
+
+        <label for="volume">Volume</label>
+        <input type="range" name="volume" id="volume" class="" min="0" max="100" value="0" step="10"/>
+
+        <br/><br/>
+
+        <label for="nrc">NRC</label>
+        <input type="file" name="nrc" id="nrc" class="" accept="image/*" capture="environment" multiple/>
+
+        <br/><br/>
+
+        <label>Video</label>
+        <input type="file" name="video" id="video" class="" accept="video/*" capture="environment" multiple/>
+
+        <br/><br/>
+
+        <label for="bio">Bio</label>
+        <textarea name="bio" id="bio" class='' rows="3" placeholder="Enter your bio"></textarea>
+
+        <br/><br/>
+
+        <input type="text" name="" id="" class=" " hidden />
+        <input type="hidden" name="" id="" class="" />
+
+        <br/><br/>
+
+        <input type="reset" name="login" id="login" class="" value="Register"/>
+        <button type="submit" name="submit" id="submit" class="">Submit</button>
+        <button type="reset" name="reset" id="reset " class="">Reset</button>
+        
+    </form>
+</body>
+
+</html>

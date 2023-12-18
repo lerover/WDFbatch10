@@ -1,0 +1,28 @@
+.textalign{
+    /* text-align: left; */
+    text-align: center;
+    text-align: justify;
+}
+
+.textdecoration{
+    /* text-decoration: underline;
+    text-decoration: overline; */
+    text-decoration: line-through;
+}
+
+a{
+    text-decoration: none;
+}
+
+.textline{
+    letter-spacing: 2px;
+    /* line-height: 2; */
+    line-height: 200%;
+
+}
+
+.textshadow{
+    /* h v b c */
+    /* hoz vlt blur color */
+    text-shadow: 5px 3px 1px red, 0px 3px 1px yellow;
+}

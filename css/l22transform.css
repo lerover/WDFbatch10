@@ -1,0 +1,24 @@
+h1{
+    color: green;
+    text-align: center;
+}
+
+p.text{
+    color: lightblue;
+    text-align: justify;
+}
+
+@media(max-width:800px){
+    h1{
+        color: black;
+    }
+
+    p.text{
+        color: black;
+        
+    }
+
+    p.text::selection{
+        background-color: lightblue;
+    }
+}

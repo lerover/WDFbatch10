@@ -1,0 +1,24 @@
+/* Pseudo class (:) */
+
+.div1{
+    width: 800px;
+    height: 100px;
+    background-color: green;
+}
+
+.div1:nth-child(2){
+    background-color: yellow;
+    color: blue;
+}
+
+.div1:nth-of-type(2){
+    background-color: white;
+}
+
+.div1:nth-of-type(3){
+    background:url(./../img/dog1.jpg);
+    color: red;
+    font-weight: 700;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
