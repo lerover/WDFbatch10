@@ -1,0 +1,98 @@
+@font-face {
+    font-family: akaya;
+    src: url(./../font/Stick/Stick-Regular.ttf);
+}
+
+:root{
+    --wcc:#f4f4f4;
+    --gyc:#777;
+    --dbc:darkblue;
+    --occ:orange;
+    --gnc:green;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: akaya;
+}
+
+.container{
+    width: 430px;
+    background-color: var(--wcc);
+
+    border-radius: 5px;
+
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.649);
+}
+
+.container .form{
+    padding: 30px 40px;
+}
+
+.container h2{
+    text-align: center;
+}
+
+.form-group{
+    margin-bottom: 30px;
+}
+
+.form-group label{
+    display: block;
+    color: var(--gyc);
+    margin-bottom:5px;
+}
+
+.form-group .form-control{
+    width: 100%;
+    padding: 10px;
+
+    font-family: akaya;
+
+}
+
+.form-group .form-control::placeholder{
+    color: var(--dbc);
+}
+
+.form .btn{
+    width: 100%;
+    background-color: var(--dbc);
+    color: white;
+
+    font-size: 20px;
+
+    padding: 10px;
+
+    cursor: pointer;
+
+    border: none;
+
+    font-family: akaya;
+
+    border-radius: 5px;
+
+    transition:background-color 0.5s;
+}
+
+
+
+.form .btn:hover{
+    background-color: var(--occ);
+}
+
+.form .btn:active{
+    background-color: var(--gnc);
+}
