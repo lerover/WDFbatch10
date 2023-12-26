@@ -1,24 +1,33 @@
-h1{
-    color: green;
-    text-align: center;
+:root{
+    --gn:green;
+    --oc:orange;
+    --rc:red;
 }
 
-p.text{
-    color: lightblue;
-    text-align: justify;
+.div1{
+    width: 100px;
+    height: 80px;
+    background-color: var(--gn);
+
+    transform: rotate(30deg);
 }
 
-@media(max-width:800px){
-    h1{
-        color: black;
-    }
+.div2{
+    width: 100px;
+    height: 80px;
+    background-color: var(--oc);
 
-    p.text{
-        color: black;
-        
-    }
+    transform: rotate(-30deg);
+}
 
-    p.text::selection{
-        background-color: lightblue;
-    }
+.div3{
+    width: 100px;
+    height: 80px;
+    background-color: var(--rc);
+
+    transform: rotateX(100deg);
+}
+
+.div5{
+    width: 2;
 }
